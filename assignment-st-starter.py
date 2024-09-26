@@ -10,6 +10,7 @@ st.title('Titanic App by HongchengFu')
 
 # read csv and show the dataframe
 df_train = pd.read_csv('train.csv')
+df_train
 
 # create a figure with three subplots, size should be (15, 5)
 # show the box plot for ticket price with different classes
